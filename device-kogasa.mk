@@ -13,3 +13,6 @@ PRODUCT_PACKAGES += \
 # MBN
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,device/google/redfin/mbn,$(TARGET_COPY_OUT_VENDOR)/rfs/msm/mpss/readonly/vendor/mbn)
+
+# PowerShare
+include hardware/google/pixel/powershare/device.mk
