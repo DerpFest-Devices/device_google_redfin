@@ -5,7 +5,7 @@
 #
 
 # Inherit our common makefile.
-$(call inherit-product, vendor/kogasa/config/common.mk)
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/redfin/aosp_redfin.mk)
@@ -15,7 +15,7 @@ include device/google/redfin/device-kogasa.mk
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 5
-PRODUCT_NAME := kogasa_redfin
+PRODUCT_NAME := derp_redfin
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340
